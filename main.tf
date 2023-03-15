@@ -4,8 +4,8 @@ provider "google" {
   zone    = "us-central1-a"
 }
 
-resource "google_storage_bucket" "overcomplinatedtfState1985" {
-  name          = "overcomplinatedtfState1985"
+resource "google_storage_bucket" "overcomplinated-tf-state-test" {
+  name          = "overcomplinated-tf-state-test"
   location      = "US"
   storage_class = "STANDARD"
 }
