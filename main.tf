@@ -1,3 +1,10 @@
+terraform {
+  backend "gcs" {
+    bucket = "overcomplinated-tf-state-test"
+    prefix = "terraform/state"
+  }
+}
+
 provider "google" {
   project = "tftest-380716"
   region  = "us-central1"
