@@ -18,3 +18,9 @@ resource "google_storage_bucket" "overcomplinated-tf-state-test" {
   location      = "US"
   storage_class = "STANDARD"
 }
+
+resource "google_storage_bucket" "overcomplinated-atlantis-bucket-create-test" {
+  name          = "overcomplinated-atlantis-bucket-create-test"
+  location      = "US"
+  storage_class = "STANDARD"
+}
