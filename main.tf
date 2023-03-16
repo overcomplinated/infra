@@ -13,6 +13,8 @@ provider "google" {
 
 resource "null_resource" "example" {}
 
+resource "null_resource" "example" {}
+
 resource "google_storage_bucket" "overcomplinated-tf-state-test" {
   name          = "overcomplinated-tf-state-test"
   location      = "US"
